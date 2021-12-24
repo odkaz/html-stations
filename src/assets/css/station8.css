@@ -1,0 +1,36 @@
+html {
+  background-color: #282828;
+}
+
+img {
+  width: 288px;
+  height: 182px;
+  margin-bottom: 1px;
+}
+
+.card {
+  padding: 12px;
+  /* width: 40%; */
+  width: 288px;
+  background-color: #fff;
+  margin: 20px;
+}
+
+.card_container {
+  display: flex;
+  /* width: 90%; */
+  /* flex-direction: row; */
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.card__title{
+  color: #282828;
+  font-size: 14px;
+}
+
+.card__description {
+  color: #282828;
+  font-size: 12px;
+}
